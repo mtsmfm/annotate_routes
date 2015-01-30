@@ -1,6 +1,31 @@
 # AnnotateRoutes
 
-TODO: Write a gem description
+Annotate routes information to your controllers.
+
+```ruby
+class CommentsController < ApplicationController
+  # == Route Info
+  # comments GET /comments(.:format)
+  def index
+  end
+
+  # == Route Info
+  # POST /comments(.:format)
+  def create
+  end
+
+  # == Route Info
+  # PATCH /comments/:id(.:format)
+  # PUT /comments/:id(.:format)
+  def update
+  end
+
+  # == Route Info
+  # DELETE /comments/:id(.:format)
+  def destroy
+  end
+end
+```
 
 ## Installation
 
@@ -20,7 +45,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ rake annotate_routes
 
 ## Contributing
 

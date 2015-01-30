@@ -1,5 +1,9 @@
 require "annotate_routes/version"
 
 module AnnotateRoutes
-  # Your code goes here...
+  class Railtie < ::Rails::Railtie
+    rake_tasks do
+      require 'annotate_routes/tasks'
+    end
+  end
 end
