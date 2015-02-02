@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["mtsmfm@gmail.com"]
   spec.summary       = %q{Annotate Rails routes}
   spec.description   = %q{Annotate Rails routes to your controllers}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/mtsmfm/annotate_routes"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
